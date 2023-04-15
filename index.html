@@ -52,7 +52,7 @@
             let config = {
                 renderer: "canvaskit",
             }
-            let appRunner = await engineInitializer.initializeEngine();
+            let appRunner = await engineInitializer.initializeEngine(config);
             // Run the app
             await appRunner.runApp();
           }
